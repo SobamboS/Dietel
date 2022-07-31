@@ -1,28 +1,28 @@
 package Chapter2;
 
-import java.util.Scanner;
+import java.util.Scanner;   // program uses class scanner
 
 public class Arithmethic {  // class
     public static void main (String[] args) {  // main method
 
         Scanner input = new Scanner(System.in);   // create a scanner to obtain input from the user
 
-        System.out.print("Enter first number is : ");   // prompt user to input first number
-        Double number1 = input.nextDouble();  // read first number
+        System.out.print("Enter first number : ");   // prompt user to input first number
+        int number1 = input.nextInt();  // read first number
 
-        System.out.print("Enter second number is : ");   // prompt user to input second number
-        Double number2 = input.nextDouble();  // read second number
+        System.out.print("Enter second number : ");   // prompt user to input second number
+        int number2 = input.nextInt();  // read second number
 
-        Double square1 = number1 * number1;   // calculate square of the first number
-        Double square2 = number2 * number2;   // calculate square of the second number
+        int square1 = number1 * number1;   // calculate square of the first number
+        int square2 = number2 * number2;   // calculate square of the second number
 
-        System.out.printf("Square of first number is : %f%n", square1);  // print square of the first number
-        System.out.printf("Square of second number is : %f%n", square2);   // print square of the second number
+        System.out.printf("Square of first number is : %d%n", square1);  // print square of the first number
+        System.out.printf("Square of second number is : %d%n", square2);   // print square of the second number
 
-        Double sum = square1 + square2;   // calculate the sum of the square of number 1 and number 2
-        System.out.printf("Sum of their square is : %f%n", sum); // print the sum
+        int sum = square1 + square2;   // calculate the sum of the square of number 1 and number 2
+        System.out.printf("Sum of their square is : %d%n", sum); // print the sum
 
-        Double difference = square1 - square2;   // calculate the difference of the square of number 1 and number 2
-        System.out.printf("Difference of their square is : %f%n", difference);   // print the difference
+        int difference = square1 - square2;   // calculate the difference of the square of number 1 and number 2
+        System.out.printf("Difference of their square is : %d%n", difference);   // print the difference
     }
 }

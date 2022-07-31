@@ -8,16 +8,16 @@ public class ProductOfThreeInteger {  // class
         Scanner input = new Scanner(System.in); // create a scanner to obtain input from the user
 
         System.out.print("Enter First Integer : "); // prompt user to input first integer
-        Double number1 = input.nextDouble();
+        int number1 = input.nextInt();
 
         System.out.print("Enter Second Integer : ");  // prompt user to input second integer
-        Double number2 = input.nextDouble();
+        int number2 = input.nextInt();
 
         System.out.print("Enter Third Integer : ");  // prompt user to input third integer
-        Double number3 = input.nextDouble();
+        int number3 = input.nextInt();
 
-Double product = (number1 * number2 * number3); // finds the product of the integers
+        int product = (number1 * number2 * number3); // finds the product of the integers
 
-        System.out.printf("The product is : %f%n", product);
+        System.out.printf("The product is : %d%n", product);
     }
 }
