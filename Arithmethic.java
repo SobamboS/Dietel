@@ -25,5 +25,4 @@ public class Arithmethic {  // class
         Double difference = square1 - square2;   // calculate the difference of the square of number 1 and number 2
         System.out.printf("Difference of their square is : %f%n", difference);   // print the difference
     }
-
 }
